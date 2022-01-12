@@ -1,0 +1,16 @@
+- java is a interpreted language and also compiled language
+
+- convert.js (see the javascript file)
+
+- Because the pseudocode gives a better perspective to see the problem and helps to truly understand the problem and how to solve it
+
+-
+BEGIN
+    NUMERIC nCurrentYear = 2022, nBornYear, nAge
+    DISPLAY "Enter the year your born: "
+    INPUT nBornYear
+    nAge = nCurrentYear - nBornYear
+    DISPLAY "You have approximately " nAge
+END
+
+- Because with this flowcharts we can express graficly the flow or or the steps to how we can solve the problem o how can do an expecific process
