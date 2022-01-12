@@ -1,1 +1,29 @@
+CORECODE 11/01/22
 
+https://hackertyper.net/- this web is fake programing
+
+-what is a program?
+
+-how the computer run a program?
+
+souce code => interpreter or compiler => Machine code => hardware
+
+source code = lenguaje que nosotros comprendemos y lo hacemos llegar a la maquina 
+interpreter = la traduccion del lenguaje natural al lenguaje de maquina (01) y va interpretando linea por linea
+compiler = la traduccion del lenguaje natural al lenguaje de maquina (01) pero se hace una traduccion completa y luego se ejecuta
+
+
+abstraccion alta es igual a un lenguaje que puede entender el humano
+
+Algorithm = a finite sequence of unambiguous and well-defined instructions that perform a task in a define time
+
+Algorithm Operations
+-Sequentia operation
+-Condicional operation
+-Iterative operation
+
+https://scratch.mit.edu/ - coding in blocks
+
+Basic element for programing
+-variables
+-input/output
