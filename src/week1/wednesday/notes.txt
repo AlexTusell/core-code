@@ -1,0 +1,60 @@
+CORECODE 12/01/22
+
+We communicate with each other in a particular language made of letters or words.
+We normally type letters or words through keyboard of the computer, but computer does not understand the words and letters. 
+Rather, those words and letters are translated into numbers. This means that computers understand only numbers. 
+We know the decimal (base 10) system, and are very comfortable with performing operations using this system, it is also important for us to understand that the decimal system
+is not the only system in the world. By studying other number systems such as binary (base 2), quaternary (base 4), octal (base 8), hexadecimal (base 16) and so forth,
+we will gain a better understanding of how number systems work in general. 
+Number systems are the technique to represent numbers in the computer system architecture,
+ every value that you are saving or getting into/from computer memory has a defined number system. 
+ As Computer architecture supports following number systems so we need to study them and also need to know the conversion technique between them.
+
+Binary Number System
+A Binary number system has only two digits that are 0 and 1. Every number (value) represents with 0 and 1 in this number system. 
+The base of binary number system is 2, because it has only two digits.
+Applications:
+Binary is found in computer technology. All computer language and programming is based on the 2-digit number system used in digital
+encoding (is the process of taking data and representing it with discreet bits of information).
+The most common application for the binary number system can be found in computer technology. 
+All computer language and programming is based on the 2-digit number system used in digital encoding. 
+Digital encoding is the process of taking data and representing it with discreet bits of information. These discreet bits consist of the 0s and 1s of the binary system. 
+
+Decimal number system
+Decimal number system has only ten (10) digits from 0 to 9. Every number (value) represents with 0,1,2,3,4,5,6, 7,8 and 9 in this number system. 
+The base of decimal number system is 10, because it has only 10 digits.
+Applications:
+We use decimals every day, while dealing with money, weight, length etc. 
+Decimal numbers are used in situations where more precision is required, than the whole numbers can provide. 
+For example, when we calculate our weight on the weighing machine, we do not always find the weight equal to a whole number on the scale. 
+In order to know our exact weight we must understand what the decimal value on the scale means. 
+This section deals with the concept of decimals in three important fields of our daily life. 
+
+Hexadecimal number system
+A Hexadecimal number system has sixteen (16) alphanumeric values from 0 to 9 and A to F. 
+Every number (value) represents with 0,1,2,3,4,5,6, 7,8,9,A,B,C,D,E and F in this number system. 
+The base of hexadecimal number system is 16, because it has 16 alphanumeric values. Here A is 10, B is 11, C is 12, D is 13, E is 14 and F is 15.
+Applications:
+A computer understands information composed of only Zeros and Ones. Therefore, when we type some letters or words, data is processed by the computer in the form of 0s and 1s. 
+A computer can understand positional number system where there are only a few symbols called digits and these symbols represent different values
+depending on the position they occupy in the number. Computer is usually designed to process hexadecimal number.
+For example, the images you see on your computer screen have been encoded with a binary line for each pixel. 
+If a screen is using a 16-bit code, then each pixel has been told what color to display based on which bits are 0s and which bits are 1s. 
+As a result, 2^16 represents 65,536 different colors! We also find the binary number system in a branch of mathematics known as Boolean algebra.
+This field of mathematics is concerned with logic and truth values. Here, statements that are either true or false are then assigned a 0 or 1.
+Hexadecimal numbering system is often used by programmers to simplify the binary numbering system.  
+Since 16 is equivalent to 24, there is a linear relationship between the numbers 2 and 16.
+This means that one hexadecimal digit is equivalent to four binary digits.  
+Computers use binary numbering system while humans use hexadecimal numbering system to shorten binary and make it easier to understand.
+Hexadecimals are used in the following:
+
+    To define locations in memory. Hexadecimals can characterise every byte as two hexadecimal digits only compared to eight digits when using binary.
+
+    To define colours on web pages. Each primary colour – red, green and blue is characterised by two hexadecimal digits.  The format being used is #RRGGBB.  
+    RR stands for red, GG stands for green and BB stands for blue.
+
+    To represent Media Access Control (MAC) addresses. MAC addresses consist of 12-digit hexadecimal numbers. 
+    The format being used is either MM:MM:MM:SS:SS:SS or MMMM-MMSS-SSSS. 
+    The first 6 digits of the MAC address represent the ID of the adapter manufacturer while the last 6 digits represent the serial number of the adapter.
+
+    To display error messages. Hexadecimals are used to define the memory location of the error.  This is useful for programmers in finding and fixing errors.
