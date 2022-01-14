@@ -1,0 +1,11 @@
+-Search for real world applications of Javascript
+
+Javascript is used in several numbers of ways for example:
+Web Development
+Web Applications
+Server Applications
+Games
+Mobile Applications
+add-ons
+
+and so on.

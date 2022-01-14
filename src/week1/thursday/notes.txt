@@ -1,0 +1,18 @@
+CORECODE 13/01/22
+
+JavaScript
+
+what is javascript?
+it's a interpreted language
+
+names 
+-Mocha
+-Livescript
+-Javascript (currently)
+
+ECMAScript = ES
+ES3 (1999) - ES5 (2009) - ES6 (2015)
+
+https://jsbin.com/?html,output - code javacript
+
+MDN web docs - javascript Documentation
