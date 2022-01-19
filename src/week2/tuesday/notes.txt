@@ -1,0 +1,31 @@
+CORECODE 18/01/22
+
+Data Types:
+String, Number, Boolean, Undefined, Null
+
+var = legacy way to define variables
+let = new way to define variables
+const = variable cannot be reassigned because its a contant
+
+Arithmetic Operators
+Add: +
+Subtract: -
+Multiply: *
+Divide: /
+Remainder: %
+
+typeof operator: see the type of a variable
+
+logic opeartor: &&, or “and” - ||, or “or”
+
+Arrays
+access individual character in a string:
+const hello = 'Helloo Word'
+console.log(hello[6]); // Output: W
+
+const a = [1,2,3,4];
+const b = [true,false,true,false,false]
+const c = ['a', 'b', 'c', 'd']
+
+Arrays methods:
+-length to see how many items are
