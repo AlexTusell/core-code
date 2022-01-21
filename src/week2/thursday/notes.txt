@@ -1,0 +1,52 @@
+CORECODE 20/01/22
+
+conditional statements:
+
+if...else
+if(<condition>) {
+    <condition_true>
+} else {
+    <condition_false>
+}
+
+else if 
+if(<condition>) {
+    <condition_true>
+} else if(<condition>){
+    <condition_true>
+} else {
+    <condition_false>
+}
+
+ternary operator 
+<condition> ? <condition_true> : <condition_false>
+
+for loop
+for(<declaration>;<condition>;<step_carry>) {
+}
+
+for in
+const obj = {a: 1, b: 2, c: 3};
+for (const prop in obj) {
+  console.log(`obj.${prop} = ${obj[prop]}`);
+}
+// Output:
+// "obj.a = 1"
+// "obj.b = 2"
+// "obj.c = 3"
+
+for of
+const hobbies = ['singing', 'eating', 'quidditch', 'writing'];
+for (const hobby of hobbies) {
+  console.log(`I enjoy ${hobby}.`);
+}
+
+while loop 
+while(<condition>){
+
+}
+
+Arrays methods:
+-length to see how many items are
+-push() to add item
+-pop() to remove the last item from the array
