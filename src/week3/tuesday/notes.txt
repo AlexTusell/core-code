@@ -1,0 +1,44 @@
+CODECORE 25/01/22
+
+Objects
+creating objects using key values like 
+const spaceship = {type: 'alien'};
+
+Accesing parameter from object, has two ways:
+by notation .propName and [] and passing the name of the key
+
+adding with the dot notation and the brackets notation ([])
+spaceship['type'] = 'vegetables';
+spaceship.type = 'people';
+
+Function Expression:
+const calculatorArea = function(width, heigh){
+	const area = with * height;
+	return area;
+};
+calculatorArea(10,2);
+
+Arrow Funtions: () => {}
+
+const getSomeFuntion = () => {
+ //do someting
+ return result;
+}
+
+NaN = Not-A-Number
+
+Scopes
+Global scope 
+function scope
+block scope
+
+Spread Operator
+Spread syntax (...) allows an iterable such as an array
+expression or string to be expanded in places
+where zero or more arguments (for function calls) or elements (for array literals)
+are expected, or an object expression to be expanded
+in places where zero or more key-value pairs (for object literals) are expected.
+
+literal Strings
+using backticks (`) can be used to put variables into a string 
+and also don´t have to worry about escaping double quotes or single quotes
