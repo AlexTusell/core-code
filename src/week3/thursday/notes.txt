@@ -1,0 +1,26 @@
+CORECODE 27/01/22
+
+Truthy (truthy and falsy)
+let result = value || 1 // default values 
+
+if value is false always resul gonna be 1
+if value is true always result gonna be value
+
+let result = value && 1 // conditional assignment
+
+if value is true always result gonna be 1
+if calue is false always result gonna be value
+
+
+Arrow Funtions: () => {}
+
+const getSomeFuntion = () => {
+ //do someting
+ return result;
+}
+
+array methods
+.map()
+.reduce()
+.slice()
+.filter()
