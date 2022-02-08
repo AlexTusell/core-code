@@ -1,0 +1,74 @@
+CORECODE 01/01/22
+
+Regex = match some patter inside on string
+
+recomendation page = regex101.com
+
+/ /g = add regex between forwards and g flag meens global
+
+using login inside
+ | = or logic
+ () = grouping
+ ? = allow 0 or 1 times
+ * = allow 0 or many times
+ + = allow 1 or more times
+ {min,max} = explicit counts
+ \ = escape special caracters
+ \d = any digit
+ \s = any spaces
+ \S = any caracter NOT space
+ \w = any caracter
+ \D = any NOT digit
+ [a-z] = character set
+ ^ = negative, do the opposite
+
+
+ <regex>.test(string) return a boolean
+ <regex>.exec(string) return exact match
+
+Promise (prom.ise):
+manages a single async value that can be handled in the future
+
+Create a Promise
+
+const myPromise = new Promise((resolve, reject) => {
+    if (something) {
+        resolve('success')
+    } else {
+        reject('failed')
+    }
+})
+
+Consume a Promise 
+
+myPromise.then(value => {
+    console.log(value);
+    //success
+}).catch(error => {
+    console.log(error)
+    //fail
+}).finally(() => {
+    console.log('myPromise was consumed!')
+})
+
+run more than 1 promise (all run async) :
+
+Promise.all([
+    promise1,
+    promise2,
+    promise3]).then((message) => {
+        console.log(message);
+    })
+
+
+consume with async/await
+
+async function fetchingData () {
+    try {
+        const dataFeched = await getData();
+        console.log(dataFeched);
+    } catch (err) {
+        console.log(err);
+    }
+}
+fetchingData();

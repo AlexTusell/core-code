@@ -1,0 +1,42 @@
+CORECODE 03/02/22
+
+OOP
+
+CLASSES for blueprint logic recreation
+INSTANCES for logic execution
+OBJECTS for managing data throw logic
+
+CLASS
+ATTRIBUTES are the characteristics that will 
+define an object, the data that would be stored 
+in the object
+METHODS are the definition of the behaviour
+of the object,what actions can be executed in 
+the object
+
+INSTANCE
+is the materialization of the object, a type of object that 
+belongs to a class
+
+ABSTRACTION
+-Using simple things to represent complexity
+-Enables the user to implement complex logic on top of the provided 
+abstraction without understanding the underlying complexity
+
+ENCAPSULATION
+-the properties of the object could be private or invisible to 
+others outside the class definition, that way they may not be modified at all,
+or be modified through a control. this way we can reuse objects without 
+allowing open access to all the data
+-this is the prsctice of keeping the properties in private and then provide a
+public method to access them
+
+INHERITANCE
+-the ability of a class to inherit the properties and actions of another class
+-this let us reuse code or to generalize actions and properties
+
+POLYMORPHISM
+-two could have the same name for an action but react different depending on
+the implementation (method overriding)
+-an class could have the same name of an action with different arguments and
+different implementation (method overloading)

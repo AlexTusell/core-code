@@ -1,0 +1,99 @@
+Types aliases vs Interfaces
+
+INTERFACES
+-Declaration  merging
+interface Song {
+  artistName: string;
+};
+
+interface Song {
+  songName: string;
+};
+
+const song: Song = {
+  artistName: "Freddie",
+  songName: "The Chain"
+};
+
+-Extends and Implements
+class Car {
+  printCar = () => {
+    console.log("this is my car")
+  }
+};
+
+interface NewCar extends Car {
+  name: string;
+};
+
+class NewestCar implements NewCar {
+  name: "Car";
+  constructor(engine:string) {
+    this.name = name
+  }
+  printCar = () => {
+    console.log("this is my car")
+  }
+};
+
+
+TYPES
+-Intersection (we can do intersection with interfaces to)
+type Name = {
+  name: “string”
+};
+
+type Age = {
+  age: number
+};
+
+type Person = Name & Age;
+
+-Unions (we can do unions with interfaces to)
+type Man = {
+  name: “string”
+};
+
+type Woman = {
+  name: “string”
+};
+
+type Person = Man | Woman;
+
+-Tuples (we can't declare a interface as a tuple but we can use a tuple inside of interfaces)
+type Reponse = [string, number]
+
+interface Response {
+  value: [string, number]
+}
+
+WHAT SHOULD I USE?
+
+Interfaces are better when you need to define a new object or method of an object. For example, in React applications
+, when you need to define the props that a specific component is going to receive, it’s ideal to use interface over types:
+interface TodoProps {
+  name: string;
+  isCompleted: boolean
+};
+
+const Todo: React.FC<TodoProps> = ({ name, isCompleted }) => {
+  ...
+};
+
+Types are better when you need to create functions, for example. 
+Let’s imagine that we have a function that’s going to return an object called, type alias is more recommended for this approach:
+type Person = {
+  name: string,
+  age: number
+};
+
+type ReturnPerson = (
+  person: Person
+) => Person;
+
+const returnPerson: ReturnPerson = (person) => {
+  return person;
+};
+
+CONCLUSION
+Interface work better with objects and method objects, and types are better to work with functions, complex types, etc.

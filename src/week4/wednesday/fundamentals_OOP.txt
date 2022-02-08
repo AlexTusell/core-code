@@ -1,0 +1,22 @@
+OOP
+
+Abstraction = simplify reality
+
+Encapsulation = hiding data an complexity
+
+Inheritance = a class can derive its
+methods and properties from another class
+
+Polymorphism = a class can implement an
+inherited method in its own way
+
+object = its anything do you want to store
+and process data about (entity)
+
+class = it's a template to create a object
+
+Method =
+The behaviours of a class. It tells what a method can do.
+
+Instance =
+Object and Instance both are same with small difference.

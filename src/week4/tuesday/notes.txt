@@ -1,0 +1,26 @@
+CORECODE 01/02/22
+
+TypeScript (javascript superset)
+
+programing language & compiler
+
+npm = node package management
+
+create a package project
+-npm init
+
+
+-npm install typescript --save-dev (-dev because is not
+a production librery)
+
+package-lock.json have all the dependencies version and 
+package.json define this libreries
+
+to compile Typescript
+npx tsc <ts file> -w (-w is a watcher)
+
+to configure typescript (generate config file)
+npx tsc --init
+
+when we set the directory order in tsconfig we can use only
+npx tsc and npx tsc -w
